@@ -1,0 +1,89 @@
+/* this is a calculator app made using HTML CSS and JS */
+
+/*begin file*/
+
+/* begin area */
+/* this area gives the page a background color */
+
+body {
+    background: linear-gradient(45deg, rgb(50, 50, 50) 0%, rgb(69, 69, 69) 100%);
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* end area */
+
+/* begin area */
+/* this whole area gives the title and the text at the bottom a font and color */
+
+h1 {
+    color: rgb(255, 255, 255);
+    font: bold 2em "Comfortaa", sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+
+/* end area */
+
+/* begin area */
+/* this area changes the style of the display and buttons */
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end area */
+
+/* begin area */
+/* this area changes the style of the display and buttons */
+#display {
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 10px;
+    background-color: rgb(93, 194, 253);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 10px;
+    justify-content: center;
+}
+
+
+button:hover {
+    box-shadow: white 0px 0px 10px;
+    transform: scale(1.1);
+    background-color: rgba(166, 222, 255, 0.8);
+}
+
+/* end area */
+
+/* end file */
