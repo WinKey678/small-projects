@@ -12,7 +12,6 @@ const buttons = document.querySelectorAll("button");
 let currentInput = "";
 
 buttons.forEach(button => {
-    // this is self explanatory but still, it's literally saying "for each button"
     button.addEventListener("click", () => {
         const value = button.textContent;
 
