@@ -1,4 +1,6 @@
-// js for the calculator aka the logic
+// js for the calculator
+// javascript is like the logic of a webapp
+
 // begin file
 
 // begin area
