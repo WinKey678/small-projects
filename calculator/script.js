@@ -1,4 +1,4 @@
-// js for a calculator webapp
+// this is js for a calculator webapp
 // javascript is like the logic of a webapp
 
 // begin file
