@@ -1,4 +1,5 @@
-/* this is a calculator app made using HTML CSS and JS */
+/* this is the CSS for a calculator webapp */
+/* CSS is like the paint and design of a car */
 
 /*begin file*/
 
@@ -14,7 +15,7 @@ body {
 /* end area */
 
 /* begin area */
-/* this whole area gives the title and the text at the bottom a font and color */
+/* this whole area gives the title and the footer a font and color */
 
 h1 {
     color: rgb(255, 255, 255);
